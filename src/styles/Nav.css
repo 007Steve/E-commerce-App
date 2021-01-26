@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__image {
+  height: 45px;
+}
+.nav__searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.nav__input {
+  width: 100%;
+  padding: .50rem;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+.nav__iconsContainer {
+  display: flex;
+  align-items: center;
+}
+.nav__icon {
+  margin: 0 1rem;
+}
